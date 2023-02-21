@@ -4,13 +4,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+/************* Navbar Part *************/
+
 .nav-banner-container {
     background: linear-gradient(90deg, #181818 0%, rgba(24, 24, 24, 0.822917) 24.48%, rgba(24, 24, 24, 0) 100%), url(../images/banner.png);
     height: 754px;
-}
-
-.menu-toggler {
-    background-color: #FFFFFF;
 }
 
 .nav-logo {
@@ -18,6 +16,10 @@ body {
     font-size: 35px;
     line-height: 52px;
     color: #FFFFFF;
+}
+
+.menu-toggler {
+    background-color: #FFFFFF;
 }
 
 .nav-items {
@@ -36,6 +38,7 @@ body {
     border-radius: 10px;
 }
 
+/************* Banner Part *************/
 
 .banner-header {
     font-weight: 700;
@@ -50,6 +53,8 @@ body {
     line-height: 26px;
     color: #FFFFFF;
 }
+
+/************* Featured Bikes Part  *************/
 
 .feature-title {
     font-weight: 600;
@@ -70,6 +75,8 @@ body {
     mix-blend-mode: luminosity;
 }
 
+/************* Bikes News Part *************/
+
 .card-titles {
     font-weight: 600;
     font-size: 26px;
@@ -84,8 +91,7 @@ body {
     color: #6C6C6C;
 }
 
-
-
+/************* Clients Part *************/
 
 .clients {
     color: #E76F51;
@@ -102,4 +108,22 @@ body {
 
 .occupation {
     color: #252B42;
+}
+
+/************* Footer Part *************/
+
+.footer-container {
+    height: 260px;
+    background-color: #0B0D17;
+}
+
+.footer-text,
+.footer-text p {
+    color: #FFFFFF;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.app-text {
+    color: #FFFFFF;
 }
