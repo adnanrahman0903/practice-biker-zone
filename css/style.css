@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-banner-container {
+    background: linear-gradient(90deg, #181818 0%, rgba(24, 24, 24, 0.822917) 24.48%, rgba(24, 24, 24, 0) 100%), url(../images/banner.png);
+    height: 754px;
+}
+
+.menu-toggler {
+    background-color: #FFFFFF;
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 52px;
+    color: #FFFFFF;
+}
+
+.nav-items {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.btn-login {
+    color: #FFFFFF;
+    padding: 10px 40px;
+    background: #E76F51;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.banner-header {
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 85px;
+    color: #FFFFFF;
+}
+
+.banner-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.feature-title {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 72px;
+    color: #000000;
+}
+
+.feature-text {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #E76F51;
+
+}
+
+.bike-prime {
+    mix-blend-mode: luminosity;
+}
+
+.card-titles {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+    color: #18191F;
+}
+
+.card-texts {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6C6C6C;
+}
+
+
+
+
+.clients {
+    color: #E76F51;
+}
+
+.filled {
+    font-size: 18px;
+    color: #E77C40;
+}
+
+.author {
+    color: #23A6F0;
+}
+
+.occupation {
+    color: #252B42;
+}

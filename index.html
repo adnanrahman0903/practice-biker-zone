@@ -6,15 +6,309 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biker Zone</title>
+
+    <!------------- Bootstrap CSS ------------->
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!------------- Style CSS ------------->
+
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- ----------- Font Awesome ----------- -->
+
+    <script src="https://kit.fontawesome.com/6d403127c7.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
+    <!------------- Navbar Part ------------->
 
+    <section class="container-fluid nav-banner-container mb-5">
+        <header class="pt-5">
+            <nav class="navbar navbar-expand-lg container mb-5">
+                <div class="container-fluid nav-main">
+                    <a class="navbar-brand nav-logo" href="#">Go Ride</a>
+                    <button class="navbar-toggler menu-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link nav-items me-3" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-items me-3" aria-current="page" href="#">Shop</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-items me-3" aria-current="page" href="#">News</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-items me-3" aria-current="page" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <button class="btn-login" type="submit">Login</button>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
+        <section class="container banner-container mt-5">
+            <h1 class="banner-header pt-5">Keep Your Ride Safe</h1>
+            <h1 class="banner-header">At Every Time</h1>
+            <p class="mt-4 mb-4 banner-text">Amet minim mollit non deserunt ullamco est sit aliqua dolor <br>
+                do amet sint. Velit officia consequat duis enim velit mollit. Exercitation <br> veniam consequat sunt
+                nostrud amet.</p>
+            <button class="btn-login" type="submit">Purchase</button>
+        </section>
+    </section>
 
+    <!------------- Featured Bikes Part ------------->
+
+    <section class="mb-5">
+        <h1 class="text-center pt-5 feature-title">Fetured Bikes In This Year</h1>
+        <p class="text-center mb-5 feature-text">Best Bike Collection</p>
+        <div class="container">
+            <div class="row ms-5 g-5">
+                <div class="col-lg-4">
+                    <img class="w-75 bike-prime" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img class="w-75" src="images/feature-bike.jpg" alt="">
+                </div>
+                <div class="col-lg-4">
+                    <img class="w-75 bike-prime" src="images/feature-bike.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- Bikes News Part ------------->
+
+    <section class="pt-5 mb-5">
+        <h1 class="text-center feature-title pb-5">Latest Bike News</h1>
+        <div class="container mb-5">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card p-3">
+                        <img src="images/bike-1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title card-titles">Ducati XDIAVEL S-73</h5>
+                            <p class="card-text card-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <a href="#">
+                                <button class="btn-login" type="submit">Read more
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3">
+                        <img src="images/bike-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title card-titles">Motorcycle & Scooter</h5>
+                            <p class="card-text card-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <a href="#">
+                                <button class="btn-login" type="submit">Read more
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3">
+                        <img src="images/bike-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title card-titles">2021 Honda CBR500R</h5>
+                            <p class="card-text card-texts">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Lacus,
+                                fermentum amet faucibus sed id nisi lectus at.</p>
+                            <a href="#">
+                                <button class="btn-login" type="submit">Read more
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- Clients Part ------------->
+
+    <section class="pt-5 pb-5">
+        <h1 class="text-center feature-title pt-5 pb-5">Happy <span class="clients">Clients says</span></h1>
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <div class="card p-3">
+                        <img src="images/user-1.png" class="card-img-top w-50 mx-auto mt-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center card-texts">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="text-center">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-regular fa-star filled"></i>
+                            </div> <br>
+                            <p class="text-center author">Regina Miles</p>
+                            <p class="text-center occupation">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3">
+                        <img src="images/user-2.png" class="card-img-top w-50 mx-auto mt-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center card-texts">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="text-center">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-regular fa-star filled"></i>
+                            </div> <br>
+                            <p class="text-center author">Regina Miles</p>
+                            <p class="text-center occupation">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card p-3">
+                        <img src="images/user-3.png" class="card-img-top w-50 mx-auto mt-4 mb-2" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center card-texts">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year.</p>
+                            <div class="text-center">
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-solid fa-star filled"></i>
+                                <i class="fa-regular fa-star filled"></i>
+                            </div> <br>
+                            <p class="text-center author">Regina Miles</p>
+                            <p class="text-center occupation">Banker</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------------- Accordion Part ------------->
+
+    <section>
+        <div class="container">
+            <h1 class="text-center feature-title mt-5 mb-5">Frequently Asked <span class="clients">Questions</span>
+            </h1>
+            <div class="row g-5">
+                <div class="col-lg-6">
+                    <img class="w-75" src="images/faq.png" alt="">
+                </div>
+                <div class="col-lg-6">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body">
+                                    <strong>This is the first item's accordion body.</strong>
+                                    <p class="card-texts">Safety First! Always obey
+                                        the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                                        mindset
+                                        of “driving” your bike—not just “riding” your bike. This will help you be a more
+                                        focused and legally compliant bike rider.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseTwo">
+                                    How can I tell if my helmet is old and I need a new one?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body">
+                                    <strong>This is the second item's accordion body.</strong>
+                                    <p class="card-texts">Safety First! Always obey
+                                        the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                                        mindset
+                                        of “driving” your bike—not just “riding” your bike. This will help you be a more
+                                        focused and legally compliant bike rider.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the third item's accordion body.</strong>
+                                    <p class="card-texts">Safety First! Always obey
+                                        the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                                        mindset
+                                        of “driving” your bike—not just “riding” your bike. This will help you be a more
+                                        focused and legally compliant bike rider.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseThree">
+                                    What rules should I follow when riding my bike?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body">
+                                    <strong>This is the fourth item's accordion body.</strong>
+                                    <p class="card-texts">Safety First! Always obey
+                                        the rules of the road. Obey all traffic signals, signs, and laws. Get in the
+                                        mindset
+                                        of “driving” your bike—not just “riding” your bike. This will help you be a more
+                                        focused and legally compliant bike rider.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
